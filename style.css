@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+}
+.cursor{
+    font-weight: bolder;
+    font-size: 50px;
+    animation: blinker  infinite .5s  ;
+    display: none;
+    color: white;
+}
+
+@keyframes blinker {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity:100%;
+    }
+    100%{
+        opacity:0;
+    }
+}
+
+body{
+    background: #832324;
+}
+.autotextproject{
+    width: 1300px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.textinput {
+    height: 40px;
+}
+
+
+input#autotext {
+    height: 100%;
+    width: 300px;
+    font-size: 16px;
+    padding: 0 10px;
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button.typebtn {
+    height: 100%;
+    border: 0;
+    outline: 0;
+    background: black;
+    color: white;
+    margin-left: 10px;
+    width: 120px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.textshow{
+    color: white;
+    letter-spacing: 3px;
+    word-spacing: 8px;
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+p{
+    color: white;
+    margin-top: 200px;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
